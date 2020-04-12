@@ -1,0 +1,75 @@
+{{COI|date=April 2020}}
+{{Use mdy dates|date = August 2019}}
+
+{{short description|JavaScript framework}}
+
+{{Infobox software
+| name = Veniqa
+| logo = veniqa-logo2.svg
+| author = {{URL|https://www.crunchbase.com/person/vivek-pandey-b328|(EJ) Vivek Pandey}}, Sujil Maharjan, Arjun Bastola
+| released = {{Start date and age|2018}}<ref>{{Cite web |url = https://www.crunchbase.com/organization/veniqa#section-overview |title = Veniqa Crunchbase |website = Crunchbase }}</ref>
+| latest release version = 1.0.0
+| latest release date = {{Start date and age|2020|04|07}}<ref>{{cite web |url = https://github.com/Viveckh/Veniqa |title = Veniqa Releases |website = GitHub |date = April 10, 2020 }}</ref>
+| repo = {{URL|https://github.com/Viveckh/Veniqa|Veniqa Repository}}
+| programming language = [[JavaScript]], [[Node.js]], [[Express.js]], [[Vue.js]], [[MongoDB]]
+| platform = [[Open-source software]]
+| size = 
+| genre = [[E-commerce]]
+| license = [[MIT License]]<ref name="license">{{cite web |title = veniqa/LICENSE |url = https://github.com/Viveckh/Veniqa/blob/develop/LICENSE |website = GitHub |accessdate = April 10, 2020 }}</ref>
+| website = {{URL|https://veniqa.com}}
+}}
+'''Veniqa''' (originally '''Veniqa New York,''' pronounced as Venika) is a [[JavaScript]]-based [[Open-source software|Open-source]] [[E-commerce]] solution predominantly built using the [[MEAN (solution stack)|MEVN (solution stack)]], which includes [[Node.js]], [[Express.js]], [[Vue.js]], [[MongoDB]]. 
+
+The platform was originally a proprietary solution that powered a [[New York (state)|New York]]-based fashion retail startup of the same name which served consumers in [[South Asia]] to shop from luxury western brands. Upon the demise of the original startup due to logistical complications, the tech platform that powered Veniqa was repackaged as an [[Open-source software]] and released under the [[MIT License]].
+
+It was designed and developed by three [[Nepalese]] engineers based in [[New York City]] - [https://www.crunchbase.com/person/vivek-pandey-b328 (EJ) Vivek Pandey] (who also co-founded the original startup), Sujil Maharjan, and Arjun Bastola.
+
+== Overview ==
+Veniqa allows [[Startup company|early-stage startups]] to quickly stand an [[Ecommerce platform]] without the trade-off of a [[Vendor lock-in]] that usually comes with adopting [[Software as a service]] solutions. The entire codebase is available as a [[Repository (version control)|Public Repository]] for use under the [[MIT License]]. 
+
+The application suite has four main components:<ref>{{Cite web|url=https://veniqa.com/|title=Veniqa - Open-source E-commerce Solution. Built using MEVN Stack (Node.js, Express.js, Vue.js, MongoDB) and more. 100% Code Customizable.|website=Veniqa|language=en|access-date=2020-04-12}}</ref>  
+
+*[[App server|App Server]] for shopping application
+*[[App server|App Server]] for management application
+*[[Web application|Web Application]] for shopping application
+*[[Web application|Web Application]] for management application
+
+[[File:Veniqa_Customer_Landing.png|alt=|thumb|220x220px|Veniqa Customer Landing]]
+
+== Statistics ==
+As of March 2020, Veniqa's website, demos and code repository recorded a monthly traffic of ~25k visitors.<ref>{{Cite web|url=https://www.crunchbase.com/organization/veniqa#section-web-traffic-by-similarweb|title=Web Traffic by SimilarWeb on Crunchbase|last=|first=|date=|website=Crunchbase|url-status=live|archive-url=|archive-date=|access-date=}}</ref>. With over a 100 forked projects, over 650 github stars, and a roadmap for easing code contribution for developers, its Github community is gradually on the rise. <ref>{{Citation|last=Pandey|first=(EJ) Vivek|title=Viveckh/Veniqa|date=2020-04-12|url=https://github.com/Viveckh/Veniqa|access-date=2020-04-12}}</ref>
+
+It has also received mainstream attention on various developer communities in recent times.
+
+* No. 1 Trending Repository on [[GitHub]] on February 23, 2020 <ref name=":0">{{Cite web|url=https://gitlogs.com|title=Gitlogs News - Discover The Top Trending Repos|last=|first=|date=|website=GitLogs|language=en|url-status=live|archive-url=|archive-date=|access-date=2020-04-12}}</ref>
+
+* Trending Repository on [[GitHub]]: February-March 2020 <ref name=":0" />
+
+* Top Trending Topic on [[Hacker News]] <ref>{{Cite web|url=https://news.ycombinator.com/item?id=22393666|title=My Startup Failed, So We Open-Sourced the Tech {{!}} Hacker News|website=news.ycombinator.com|access-date=2020-04-12}}</ref>
+
+== Sources ==
+{{Free-content attribution
+| title = Veniqa Guide
+| author = Veniqa
+| publisher = 
+| page numbers = 
+| source = 
+| documentURL = https://documentation.veniqa.com/
+| license statement URL = https://github.com/Viveckh/Veniqa/blob/develop/LICENSE
+| license = [[MIT License]]
+}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+
+* {{Official website|https://veniqa.com}}
+
+__FORCETOC__
+[[Category:JavaScript web frameworks]]
+[[Category:Software frameworks]]
+[[Category:Web applications|Frameworks]]
+[[Category:Web development]]
+[[Category:Software using the MIT license]]
+[[Category:E-commerce software]]
