@@ -221,7 +221,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h2><b>Appeared as a trending topic on</b></h2>
+                            <h2><b>Appeared as No. 1 trending topic on</b></h2>
                             <br>
                         </div>
                     </div>
@@ -581,7 +581,7 @@
                             <div class="switchable__text">
                                 <div class="switchable__text">
                                     <h2>Join our community</h2>
-                                    <p class="lead">You are more than welcome to join us as a contributor on Github. Anything helps - Whether it is a simple bug fix or an entire new feature implementation. <br><br> <strong>While we're at it, any sponsors out there willing to help us keep our servers running?</strong></p>
+                                    <p class="lead">You are more than welcome to join us as a contributor on Github. Anything helps - Whether it is a simple bug fix or an entire new feature implementation. <br><br> <strong>While we're at it, any sponsors out there willing to help us keep our servers running? Donation Channels below.</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -598,6 +598,47 @@
                                         <li><span class="checkmark bg--primary-1"> </span><span>Suggestions</span></li>
                                         <li><span class="checkmark bg--primary-1"></span><span>Word-of-mouth promotions</span></li>
                                         <li><span class="checkmark bg--primary-1"></span><span>Sponsor the project</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center space--xs bg--dark" id="sponsor">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>Sponsor the Project</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pricing pricing-2 boxed boxed--border boxed--lg row no-gutters"> <span class="label">Value</span>
+                                <div class="col-lg-6 text-center">
+                                    <h5>Paypal</h5> <span class="h1">100%</span>
+                                    <p class="type--fine-print">goes to Veniqa Engineering</p>
+                                    <a class="btn btn--primary" onclick="copyPaypalEmail()"> <span class="btn__text">Copy Paypal Email</span> </a> 
+                                    <span id="paypal-email-copied" style="display: none">Copied!</span>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank'>here</a>.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pricing pricing-2 boxed boxed--border boxed--lg row no-gutters">
+                                <div class="col-lg-6 text-center">
+                                    <h5>Opencollective</h5> <span class="h1">90%</span>
+                                    <p class="type--fine-print">goes to Veniqa Engineering</p>
+                                    <a class="btn btn--primary" href="https://opencollective.com/veniqa" target='_blank'> <span class="btn__text">Go to Opencollective</span> </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank'>here</a>.</span></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -655,6 +696,22 @@
                 </div>
             </footer>
         </div>
+
+        <script>
+            function copyPaypalEmail() {
+                var dummy = document.createElement("input");
+                document.body.appendChild(dummy);
+                dummy.setAttribute('value', 'veniqa.engineering@gmail.com');
+                dummy.select();
+                dummy.setSelectionRange(0, 99999); /*For mobile devices*/
+                document.execCommand("copy");
+                document.body.removeChild(dummy);
+                
+                // Display notification
+                var paypalEmailCopied = document.getElementById("paypal-email-copied")
+                paypalEmailCopied.style.display = ''
+            }
+        </script>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/flickity.min.js"></script>
         <script src="js/typed.min.js"></script>
