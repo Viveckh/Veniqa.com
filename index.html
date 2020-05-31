@@ -618,12 +618,12 @@
                                 <div class="col-lg-6 text-center">
                                     <h5>Paypal</h5> <span class="h1">100%</span>
                                     <p class="type--fine-print">goes to Veniqa Engineering</p>
-                                    <a class="btn btn--primary" onclick="copyPaypalEmail()"> <span class="btn__text">Copy Paypal Email</span> </a> 
+                                    <a class="btn btn--primary" onclick="copyPaypalEmail();gtag('event', 'click', { 'event_category': 'donation_attempt', 'event_label': 'paypal', 'event_value': 1})"> <span class="btn__text">Copy Paypal Email</span> </a> 
                                     <span id="paypal-email-copied" style="display: none">Copied!</span>
                                 </div>
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank'>here</a>.</span></li>
+                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank' onclick="gtag('event', 'click', { 'event_category': 'donation_attempt', 'event_label': 'learn_more', 'event_value': 1})">here</a>.</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -633,11 +633,11 @@
                                 <div class="col-lg-6 text-center">
                                     <h5>Opencollective</h5> <span class="h1">90%</span>
                                     <p class="type--fine-print">goes to Veniqa Engineering</p>
-                                    <a class="btn btn--primary" href="https://opencollective.com/veniqa" target='_blank'> <span class="btn__text">Go to Opencollective</span> </a>
+                                    <a class="btn btn--primary" href="https://opencollective.com/veniqa" target='_blank' onclick="gtag('event', 'click', { 'event_category': 'donation_attempt', 'event_label': 'opencollective', 'event_value': 1})"> <span class="btn__text">Go to Opencollective</span> </a>
                                 </div>
                                 <div class="col-lg-6">
                                     <ul>
-                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank'>here</a>.</span></li>
+                                        <li><span>Learn more about the sponsorship tiers and associated benefits <a href="https://opencollective.com/veniqa" target='_blank' onclick="gtag('event', 'click', { 'event_category': 'donation_attempt', 'event_label': 'learn_more', 'event_value': 1})">here</a>.</span></li>
 
                                     </ul>
                                 </div>
